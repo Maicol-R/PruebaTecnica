@@ -1,10 +1,10 @@
 👋 Hola. ¡Bienvenido al Prueba Tecnica de Clientes!
-Esta prueba tecnica es una aplicación web de gestión de clientes que permite realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) sobre una base de datos de clientes. Está dividida en un backend (API RESTful en C# con ASP.NET Core y Dapper) y un frontend (HTML, CSS y JavaScript puro).
+Esta prueba tecnica es una aplicación web de gestión de clientes que permite realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) sobre una base de datos de clientes. Está dividida en un backend (API RESTful en C# con ASP.NET Core y Dapper) y un frontend (HTML, CSS y JavaScript).
 
 🚀 Características
-Esta prueba incluye las siguientes funcionalidades clave:
+Esta prueba incluye las siguientes funcionalidades:
 
-CRUD Completo: Permite crear, visualizar, editar y eliminar registros de clientes.
+CRUD: Permite crear, visualizar, editar y eliminar registros de clientes.
 
 Paginación de Clientes: Muestra los clientes en páginas, mejorando el rendimiento y la navegabilidad para grandes volúmenes de datos.
 
@@ -27,8 +27,8 @@ Botón "Cancelar Edición": Permite al usuario descartar los cambios en el formu
 🛠️ Tecnologías Utilizadas
 Backend (API RESTful)
 Frontend (Interfaz de Usuario)
-📂 Estructura del Proyecto
-TuProyecto/
+📂 Estructura
+PruebaTecnica/
 ├── Backend/
 │   ├── Controllers/
 │   │   └── ClientesController.cs      # Lógica de la API (endpoints, validaciones)
@@ -49,13 +49,13 @@ TuProyecto/
     └── index.html                     # Estructura principal de la página web
 
 ⚙️ Configuración y Ejecución
-Sigue estos pasos para configurar y ejecutar la aplicación en tu entorno local.
+Sigue estos pasos para configurar y ejecutar la Prueba Tecnica en tu entorno local.
 
 1. Configuración del Backend
 Clonar el Repositorio:
 
 git clone <URL_DE_TU_REPOSITORIO>
-cd TuProyecto/Backend
+cd PruebaTecnica/Backend
 
 Configurar la Base de Datos:
 
@@ -186,25 +186,5 @@ Usa el selector "Clientes por página" para cambiar la cantidad de clientes que 
 Ordenar Columnas:
 
 Haz clic en los encabezados de la tabla (ej. "Nombre", "Email") para ordenar los clientes por esa columna. Un icono indicará si el orden es ascendente o descendente.
-
-❓ Preguntas Frecuentes (FAQ)
-¿Cómo cambio la base de datos?
-
-Modifica la cadena de conexión en appsettings.json del backend.
-
-¿Por qué no carga la tabla de clientes?
-
-Asegúrate de que el backend esté ejecutándose y que la API_BASE_URL en js/app.js sea correcta. Revisa la consola del navegador (F12) para ver errores de red o de CORS.
-
-💖 Agradecimientos
-Un agradecimiento especial a:
-
-Dapper: Por ser un micro-ORM rápido y eficiente.
-
-Bootstrap: Por facilitar el diseño responsivo y los componentes UI.
-
-Font Awesome: Por los iconos tan útiles.
-
-Live Server: Por hacer el desarrollo frontend mucho más fácil.
 
 <p align="center">Hecho con ❤️ por Maicol Rodriguez</p>
